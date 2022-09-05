@@ -23,7 +23,7 @@
 
 .title {
   font-size: 18px;
-  color: #b7903c;
+  color: #73777b;
 }
 
 .text {
@@ -47,11 +47,11 @@
     flex-direction: column;
   }
 
-  .title{
+  .title {
     font-size: 30px;
   }
 
-  .text{
+  .text {
     font-size: 20px;
   }
 }

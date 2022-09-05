@@ -5,7 +5,7 @@ import { useState } from "react";
 const Product = () => {
   const [size, setSize] = useState(0);
   const pizza = {
-    id: 1,
+    id: 2,
     img: "/img/pizza.png",
     name: "CAMPAGNOLA",
     price: [130000, 140000, 150000],

@@ -23,10 +23,10 @@
 }
 
 .price {
-  color: #d1411e;
+  color: #15133c;
   font-size: 24px;
   font-weight: 400;
-  border-bottom: 1px solid #d1411e;
+  border-bottom: 1px solid #15133c;
 }
 
 .sizes {
@@ -65,7 +65,7 @@
 
 .ingredients {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .option {
@@ -89,7 +89,7 @@
 .button {
   height: 30px;
   margin-left: 10px;
-  background-color: #d1411e;
+  background-color: #15133c;
   color: white;
   border: none;
   cursor: pointer;

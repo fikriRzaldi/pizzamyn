@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className={styles.container}>      
+    <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
           <Image
@@ -23,7 +23,9 @@ const Navbar = () => {
           <li className={styles.listItem}>Homepage</li>
           <li className={styles.listItem}>Products</li>
           <li className={styles.listItem}>Menu</li>
-          <Image src="/img/logo.png" alt="" width={160} height={69} />
+          <div className={styles.logoContainer}>
+            <Image src="/img/myn2.png" alt="" width={120} height={40} />
+          </div>
           <li className={styles.listItem}>Events</li>
           <li className={styles.listItem}>Blog</li>
           <li className={styles.listItem}>Contact</li>
